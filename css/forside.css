@@ -150,6 +150,30 @@ header label {
     display: none;
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid var(--secondary-color);
+}
+
+.logo-footer {
+    width: auto;
+    height: 90px;
+    margin: 15px;
+}
+
+.adresse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+    font-family: "EB Garamond", serif;
+    margin-left: 500px;
+}
+
+
+
 @media(max-width:991px) {
 
     header {
