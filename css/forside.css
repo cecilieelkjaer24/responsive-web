@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -39,21 +41,50 @@ header {
 }
 
 .forside {
-    width: auto;
-    height: 450px;
     display: flex;
     justify-content: center;
+    height: 80%;
+}
+
+.forside img {
+    width: 100%;
 }
 
 .abningstider {
     text-align: center;
     margin-top: 20px;
     color: var(--secondary-color);
+    font-family: "EB Garamond", serif;
+    padding-bottom: 30px;
+}
+
+.abningstider h2 {
+    font-size: 1.4rem;
 }
 
 .tidspunkter {
-    margin-top: 10px;
     color: var(--secondary-color);
+    font-family: "EB Garamond", serif;
+}
+
+.tidspunkter p:nth-child(1) {
+    font-size: 1.4rem;
+}
+
+.tid {
+    font-size: 2rem;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.croissant {
+    display: flex;
+    justify-content: center;
+}
+
+.croissant img {
+    width: 100%;
+    height:
 }
 
 @media only screen and (max-width: 600px) {    
