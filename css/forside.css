@@ -38,6 +38,13 @@ header {
     right: 0;
 }
 
+.forside {
+    width: auto;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 600px) {    
 }
 
