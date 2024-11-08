@@ -3,7 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-@media only screen and (max-width: 600px) {
+:root {
+    --primary-color: #fff8d0;
+    --secondary-color: #2844a5;
+}
+body{
+    background-color: var(--primary-color);
 
-    
+}
+@media only screen and (max-width: 600px) {    
 }
