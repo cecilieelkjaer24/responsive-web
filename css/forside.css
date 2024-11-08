@@ -154,6 +154,8 @@ footer {
     display: flex;
     flex-direction: row;
     border-top: 2px solid var(--secondary-color);
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .logo-footer {
@@ -172,7 +174,24 @@ footer {
     margin-left: 500px;
 }
 
+.adresse a {
+    text-decoration: none;
+}
 
+.social-media {
+    height: auto;
+    width: 50px;
+    display: flex;
+    margin-right: 75px;
+}
+
+.social-media a img {
+    height: 30px;
+}
+
+.social-media a {
+    display: inline-block;
+}
 
 @media(max-width:991px) {
 
