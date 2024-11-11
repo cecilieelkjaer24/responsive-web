@@ -30,7 +30,7 @@ body{
     width: 150px;
     height: auto;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 18px;
     justify-content: center;
     margin-bottom: 22px;
 }
@@ -66,17 +66,9 @@ header {
     padding-bottom: 30px;
 }
 
-.abningstider h2 {
-    font-size: 1.4rem;
-}
-
 .tidspunkter {
     color: var(--secondary-color);
     font-family: "EB Garamond", serif;
-}
-
-.tidspunkter p:nth-child(1) {
-    font-size: 1.4rem;
 }
 
 .tid {
@@ -201,6 +193,93 @@ footer {
     display: inline-block;
 }
 
+@media(max-width:1024px) {
+
+    header {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .overskrift {
+        margin-bottom: 15px;
+    }
+
+    header label {
+        display: block;
+    }
+
+    header .navbar ul {
+        list-style-type: none;
+    }
+    
+    header .navbar ul li {
+        position: relative;
+        float: left;
+    }
+    
+    header .navbar ul li a {
+        text-decoration: none;
+        font-size: 2rem;
+        padding: 18px;
+        display: block;
+    }
+    
+    header .navbar ul li a:visited {
+       color: var(--secondary-color);
+    }
+    
+    header .navbar ul li a:hover {
+        background: var(--secondary-color);
+        color: var(--primary-color);
+    }
+    
+    header .navbar ul li ul {
+        position: absolute;
+        left: 0;
+        width: 200px;
+        background: #FFF;
+        display: none;
+    }
+    
+    header .navbar ul li ul li {
+        width: 100%;
+        border-top: 1px solid rgba(0,0,0,0.1);
+    }
+    
+    header .navbar ul li ul li ul {
+        left: 200px;
+        top: 0;
+    }
+    
+    header .navbar ul li:focus-within > ul ,
+    header .nvabar ul li:hover > ul {
+        display: block;
+    }
+    
+    #menu-bar {
+        display: none;
+    }
+
+    .overskrift {
+        margin-left: 25px;
+    }
+
+    .abningstider {
+        font-size: 2rem;
+        margin: 30px 0;
+    }
+
+    .tidspunkter p:nth-child(1) {
+        font-size: 2.3rem;
+        margin-top: 20px;
+    }
+    .tidspunkter p:nth-child(2) {
+        font-size: 3.5rem;
+    }
+
+}
+
 @media(max-width:600px) {
 
     header {
@@ -258,4 +337,5 @@ footer {
     }
 
 }
+
 
