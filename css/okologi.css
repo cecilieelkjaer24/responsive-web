@@ -263,10 +263,6 @@ footer {
     #menu-bar {
         display: none;
     }
-
-    .overskrift {
-        margin-left: 25px;
-    }
  
     .adresse {
         font-size: 1.8rem;
@@ -302,7 +298,7 @@ footer {
 
     header .navbar {
         position: absolute;
-        top: 22.2%;
+        top: 100%;
         left: 0;
         right: 0;
         background: var(--primary-color);
@@ -360,5 +356,15 @@ footer {
         margin-top: 50px;
         object-fit: cover;
     }
+
+}
+
+
+@media(max-width:400px) {
+    
+    .logo {
+        display: none;
+    }
+
 
 }
