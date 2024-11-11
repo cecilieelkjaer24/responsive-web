@@ -43,6 +43,8 @@ header {
     right: 0;
     justify-content: space-between;
     border-bottom: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+    font-family: "EB Garamond", serif;
 }
 
 .forside {
@@ -108,8 +110,11 @@ header .navbar ul li a {
     text-decoration: none;
     font-size: 20px;
     padding: 18px;
-    color:#333;
     display: block;
+}
+
+header .navbar ul li a:visited {
+   color: var(--secondary-color);
 }
 
 header .navbar ul li a:hover {
@@ -217,9 +222,10 @@ footer {
         top: 22.2%;
         left: 0;
         right: 0;
-        background: #fff;
-        border-top: 1px solid rgba(0,0,0,0.1);
+        background: var(--primary-color);
         display: none;
+        color: var(--secondary-color);
+        font-family: "EB Garamond", serif;
     }
 
     header .navbar ul li {
@@ -246,7 +252,7 @@ footer {
     }
 
     .menubillede {
-        width: 30px;
+        width: 40px;
         margin-bottom: -22px;
         margin-left: 20px;
     }
