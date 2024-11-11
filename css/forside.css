@@ -84,13 +84,7 @@ header {
 
 .croissant img {
     width: 100%;
-    height:
 }
-
-@media only screen and (max-width: 600px) {    
-}
-
-
 
 /* NAVBAR */
 
@@ -238,5 +232,23 @@ footer {
     .menubillede {
         width: 30px;
     }
+
+}
+
+
+@media only screen and (max-width: 600px) { 
+
+
+    header {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 40px;
+    }
+
+
 
 }
