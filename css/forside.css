@@ -45,6 +45,8 @@ header {
     border-bottom: 2px solid var(--secondary-color);
     color: var(--secondary-color);
     font-family: "EB Garamond", serif;
+    position: fixed;
+    background: var(--primary-color);
 }
 
 .forside {
@@ -103,6 +105,7 @@ header .navbar ul li a {
     font-size: 20px;
     padding: 18px;
     display: block;
+    color: var(--secondary-color);
 }
 
 header .navbar ul li a:visited {
@@ -172,11 +175,13 @@ footer {
     align-items: center;
     color: var(--secondary-color);
     font-family: "EB Garamond", serif;
+    font-weight: 500;
 }
 
 .adresse a {
     text-decoration: none;
     text-align: center;
+    color: var(--secondary-color);
 }
 
 .social-media {
