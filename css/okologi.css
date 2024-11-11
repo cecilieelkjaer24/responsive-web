@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color: #fff8d0;
+    --secondary-color: #2844a5;
+    --crossaint-color: #d3874a;
+}
+body{
+    background-color: var(--primary-color);
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 20px 20px 20px 20px;
+}
+
+.overskrift {
+    display: flex;
+    width: 150px;
+    height: auto;
+    align-items: center;
+    margin-top: 18px;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+    font-family: "EB Garamond", serif;
+    background: var(--primary-color);
+}
+
+.header-icons {
+    display: flex;
+}
+
+/* NAVBAR */
+
+header .navbar ul {
+    list-style-type: none;
+}
+
+header .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+header .navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px;
+    display: block;
+    color: var(--secondary-color);
+}
+
+header .navbar ul li a:visited {
+   color: var(--secondary-color);
+   text-decoration: none;
+}
+
+header .navbar ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+header .navbar ul li ul {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #FFF;
+    display: none;
+}
+
+header .navbar ul li ul li {
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+header .navbar ul li ul li ul {
+    left: 200px;
+    top: 0;
+}
+
+header .navbar ul li:focus-within > ul ,
+header .nvabar ul li:hover > ul {
+    display: block;
+}
+
+#menu-bar {
+    display: none;
+}
+
+header label {
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    display: none;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid var(--secondary-color);
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: hidden;
+    gap: 50px;
+}
+
+.logo-footer {
+    width: auto;
+    height: 90px;
+    margin: 15px;
+}
+
+.adresse {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+}
+
+.adresse a {
+    text-decoration: none;
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.social-media {
+    height: auto;
+    width: 50px;
+    display: flex;
+    margin-right: 75px;
+}
+
+.social-media a img {
+    height: 30px;
+}
+
+.social-media a {
+    display: inline-block;
+}
+
+@media (min-width:1025px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        width: 80px;
+        height: auto;
+    }
+
+    .overskrift {
+        margin-top: -40px;
+        margin-bottom: -100px;
+    }
+
+    header .navbar ul li {
+        padding: 0 70px;
+    }
+
+    .adresse {
+        font-size: 1.3rem;
+    }
+
+}
+
+@media(max-width:1024px) {
+
+    header {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+    }
+
+
+    .header-icons {
+        display: none;
+    }
+
+    .overskrift {
+        margin-bottom: 15px;
+    }
+
+    header label {
+        display: block;
+    }
+
+    header .navbar ul {
+        list-style-type: none;
+    }
+    
+    header .navbar ul li {
+        position: relative;
+        float: left;
+    }
+    
+    header .navbar ul li a {
+        text-decoration: none;
+        font-size: 2rem;
+        padding: 18px;
+        display: block;
+    }
+    
+    header .navbar ul li a:visited {
+       color: var(--secondary-color);
+    }
+    
+    header .navbar ul li a:hover {
+        background: var(--secondary-color);
+        color: var(--primary-color);
+    }
+    
+    header .navbar ul li ul {
+        position: absolute;
+        left: 0;
+        width: 200px;
+        background: #FFF;
+        display: none;
+    }
+    
+    header .navbar ul li ul li {
+        width: 100%;
+        border-top: 1px solid rgba(0,0,0,0.1);
+    }
+    
+    header .navbar ul li ul li ul {
+        left: 200px;
+        top: 0;
+    }
+    
+    header .navbar ul li:focus-within > ul ,
+    header .nvabar ul li:hover > ul {
+        display: block;
+    }
+    
+    #menu-bar {
+        display: none;
+    }
+
+    .overskrift {
+        margin-left: 25px;
+    }
+ 
+    .adresse {
+        font-size: 1.8rem;
+    }
+
+    .social-media a img {
+        height: 50px;
+    }
+
+    .social-media {
+        gap: 10px;
+        margin-left: -10px;
+    }
+
+}
+
+@media(max-width:960px) {
+
+    header {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+    }
+
+    .overskrift {
+        margin-bottom: 0px;
+    }
+
+    header label {
+        display: block;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 22.2%;
+        left: 0;
+        right: 0;
+        background: var(--primary-color);
+        display: none;
+        color: var(--secondary-color);
+        font-family: "EB Garamond", serif;
+    }
+
+    header .navbar ul li {
+        width:100%;
+        background-color: var(--primary-color);
+    }
+
+    header .navbar ul li ul {
+        position: relative;
+        width: 100%;
+    }
+
+    header .navbar ul li ul li {
+        background: #eee;
+    }
+
+    header .navbar ul li ul li ul {
+        width: 100%;
+        left: 0;
+    }
+
+    #menu-bar:checked ~ .navbar {
+        display: block;
+    }
+
+    .menubillede {
+        width: 40px;
+        margin-bottom: -22px;
+        margin-left: 20px;
+    }
+
+}
