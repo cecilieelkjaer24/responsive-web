@@ -340,4 +340,16 @@ footer {
         margin-left: 20px;
     }
 
+    .infographic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .infographic img {
+        width: 100%;
+        overflow-x: hidden;
+        margin-top: 200px;
+    }
+
 }
