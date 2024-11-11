@@ -107,6 +107,7 @@ header .navbar ul li a {
 
 header .navbar ul li a:visited {
    color: var(--secondary-color);
+   text-decoration: none;
 }
 
 header .navbar ul li a:hover {
@@ -278,9 +279,22 @@ footer {
         font-size: 3.5rem;
     }
 
+    .adresse {
+        font-size: 1.8rem;
+    }
+
+    .social-media a img {
+        height: 50px;
+    }
+
+    .social-media {
+        gap: 10px;
+        margin-left: -10px;
+    }
+
 }
 
-@media(max-width:600px) {
+@media(max-width:960px) {
 
     header {
         padding: 20px;
