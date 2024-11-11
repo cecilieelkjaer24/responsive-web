@@ -8,6 +8,7 @@
 :root {
     --primary-color: #fff8d0;
     --secondary-color: #2844a5;
+    --crossaint-color: #d3874a;
 }
 body{
     background-color: var(--primary-color);
@@ -41,6 +42,7 @@ header {
     left: 0;
     right: 0;
     justify-content: space-between;
+    border-bottom: 2px solid var(--secondary-color);
 }
 
 .forside {
@@ -202,13 +204,17 @@ footer {
         justify-content: space-between;
     }
 
+    .overskrift {
+        margin-bottom: 0px;
+    }
+
     header label {
         display: block;
     }
 
     header .navbar {
         position: absolute;
-        top: 21%;
+        top: 22.2%;
         left: 0;
         right: 0;
         background: #fff;
@@ -218,6 +224,7 @@ footer {
 
     header .navbar ul li {
         width:100%;
+        background-color: var(--primary-color);
     }
 
     header .navbar ul li ul {
