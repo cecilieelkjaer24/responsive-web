@@ -118,8 +118,8 @@ header .navbar ul li a:visited {
 }
 
 header .navbar ul li a:hover {
-    background: #333;
-    color:#FFF;
+    background: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 header .navbar ul li ul {
