@@ -31,6 +31,7 @@ body{
     align-items: center;
     margin-top: 25px;
     justify-content: center;
+    margin-bottom: 22px;
 }
 header {
     display: flex;
@@ -39,6 +40,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    justify-content: space-between;
 }
 
 .forside {
@@ -196,6 +198,8 @@ footer {
 
     header {
         padding: 20px;
+        display: flex;
+        justify-content: space-between;
     }
 
     header label {
@@ -236,6 +240,8 @@ footer {
 
     .menubillede {
         width: 30px;
+        margin-bottom: -22px;
+        margin-left: 20px;
     }
 
 }
