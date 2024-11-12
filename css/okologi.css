@@ -213,7 +213,11 @@ footer {
     }
 
     header .navbar ul li {
-        padding: 0 70px;
+        padding: 0 40px;
+    }
+
+    header .navbar ul li a {
+        font-size: 2rem;
     }
 
     .adresse {
@@ -222,7 +226,8 @@ footer {
 
     .oko-text {
         column-count: 3;
-        column-gap: 30px;
+        column-gap: 80px;
+        padding: 30px 90px;
     }
 
     .oko-text h2 {
@@ -235,6 +240,33 @@ footer {
         font-size: 2rem;
         display: flex;
         flex-direction: row;
+        break-inside: avoid;
+    }
+
+    .infographic {
+        display: none;
+    }
+
+    .infographic-web {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .infographic-web img {
+        width: 100%;
+        overflow-x: hidden;
+        margin-top: 50px;
+        padding: 0 45px;
+    }
+
+    .okomel img {
+        height: 700px;
+    }
+
+    nav.navbar {
+        display: flex;
+        justify-content: space-between;
     }
 
 }
@@ -326,6 +358,20 @@ footer {
         margin-left: -10px;
     }
 
+    .infographic {
+        display: none;
+    }
+
+    .infographic-web {
+        width: 100%;
+    }
+
+    .infographic-web img {
+        width: 100%;
+        padding-top: 200px;
+    }
+
+
 }
 
 @media(max-width:960px) {
@@ -398,6 +444,10 @@ footer {
         padding: 0 45px;
     }
 
+    .infographic-web {
+        display: none;
+    }
+
 }
 
 
@@ -429,6 +479,10 @@ footer {
 
     footer {
         padding: 20px 0;
+    }
+
+    .infographic-web {
+        display: none;
     }
 
 }

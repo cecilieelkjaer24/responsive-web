@@ -225,12 +225,22 @@ footer {
     }
 
     header .navbar ul li {
-        padding: 0 70px;
+        padding: 0 40px;
+    }
+
+    header .navbar ul li a {
+        font-size: 2rem;
     }
 
     .adresse {
         font-size: 1.3rem;
     }
+
+    nav.navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
 
 }
 
