@@ -220,6 +220,31 @@ footer {
         font-size: 1.3rem;
     }
 
+    .menu-mobil {
+        display: none !important;
+        
+    }
+    h2{
+        font-size: 4rem;
+        margin-top: 4rem;  
+        margin-bottom: -2rem;
+    }
+    .menu-desktop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .adresse{
+        font-size: 2rem;
+    }
+    .social-media a img{
+       width: 50px;
+       height: auto;
+    }
+    .logo-footer{
+        width: 100px;
+        height: auto;
+    }
 }
 
 @media(max-width:1024px) {
@@ -352,6 +377,10 @@ footer {
     .adresse {
         font-size: 3rem;
     }
+
+    .menu-desktop {
+        display: none !important;
+    }
 }
 
 @media(max-width:960px) {
@@ -440,7 +469,11 @@ footer {
     .adresse {
         font-size: 1.5rem;
     }
-
+    
+    .menu-desktop {
+        display: none !important;
+        
+    }
 }
 
 
