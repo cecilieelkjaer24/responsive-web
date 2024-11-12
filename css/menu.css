@@ -354,9 +354,6 @@ footer {
         font-size: 2rem;
     }
 
-    .menu-telefon {
-        background: var(--primary-color);
-    }
 
     header label {
         display: block;
