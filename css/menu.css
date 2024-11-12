@@ -213,7 +213,11 @@ footer {
     }
 
     header .navbar ul li {
-        padding: 0 70px;
+        padding: 0 40px;
+    }
+
+    header .navbar ul li a {
+        font-size: 2rem;
     }
 
     .adresse {
@@ -245,6 +249,16 @@ footer {
         width: 100px;
         height: auto;
     }
+
+    .menu-desktop img {
+        width: 100%;
+    }
+
+    nav.navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
 
 @media(max-width:1024px) {
@@ -474,6 +488,32 @@ footer {
         display: none !important;
         
     }
+}
+
+
+@media(max-width:470px) {
+    
+    .logo {
+        display: none;
+    }
+
+    .logo-footer {
+        display: none;
+    }
+
+    .adresse {
+        font-size: 1.2rem;
+        padding-left: 20px;
+    }
+
+    .social-media a img {
+        height: 40px;
+    }
+
+    footer {
+        padding: 20px 0;
+    }
+
 }
 
 
