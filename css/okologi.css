@@ -220,6 +220,23 @@ footer {
         font-size: 1.3rem;
     }
 
+    .oko-text {
+        column-count: 3;
+        column-gap: 30px;
+    }
+
+    .oko-text h2 {
+        font-size: 2.5rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .linjeskift {
+        font-size: 2rem;
+        display: flex;
+        flex-direction: row;
+    }
+
 }
 
 @media(max-width:1024px) {
@@ -408,6 +425,10 @@ footer {
 
     .social-media a img {
         height: 40px;
+    }
+
+    footer {
+        padding: 20px 0;
     }
 
 }
