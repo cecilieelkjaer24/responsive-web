@@ -57,11 +57,13 @@ header {
     display: flex;
     justify-content: center;
     height: 80%;
+    overflow: hidden;
 }
 
 .forside img {
     width: 100%;
     overflow-x: hidden;
+    object-fit: cover;
 }
 
 .abningstider {
@@ -395,6 +397,10 @@ footer {
         margin-left: 20px;
     }
 
+    .forside {
+        margin: -40px 0px 0px -120px;
+    }
+
 }
 
 
@@ -422,6 +428,10 @@ footer {
 
     .social-media a img {
         height: 40px;
+    }
+
+    footer {
+        padding: 20px 0;
     }
 
 }

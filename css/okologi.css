@@ -427,4 +427,8 @@ footer {
         height: 40px;
     }
 
+    footer {
+        padding: 20px 0;
+    }
+
 }
