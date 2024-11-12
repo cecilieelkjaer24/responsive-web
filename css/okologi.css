@@ -163,6 +163,25 @@ footer {
     display: inline-block;
 }
 
+.oko-text {
+    padding: 0 30px;
+    color: var(--secondary-color);
+    font-family: "EB Garamond", serif;
+}
+
+.oko-text h2 {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.oko-text p {
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+
+
+
 @media (min-width:1025px) {
 
     header {
@@ -365,6 +384,5 @@ footer {
     .logo {
         display: none;
     }
-
 
 }
