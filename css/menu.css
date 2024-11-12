@@ -83,15 +83,7 @@ header {
     padding-top: 20px;
 }
 
-.croissant {
-    display: flex;
-    justify-content: center;
-}
 
-.croissant img {
-    width: 100%;
-    overflow-x: hidden;
-}
 
 /* NAVBAR */
 
@@ -354,6 +346,14 @@ footer {
         font-size: 2rem;
     }
 
+    
+    .forside img {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        overflow-x: hidden;
+    }
 
     header label {
         display: block;
@@ -397,6 +397,20 @@ footer {
         width: 40px;
         margin-bottom: -22px;
         margin-left: 20px;
+    }
+
+   
+    
+    .menu-mobil img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+    }
+
+    .adresse {
+        font-size: 1.5rem;
     }
 
 }
