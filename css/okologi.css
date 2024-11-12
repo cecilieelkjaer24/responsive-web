@@ -163,6 +163,25 @@ footer {
     display: inline-block;
 }
 
+.oko-text {
+    padding: 0 30px;
+    color: var(--secondary-color);
+    font-family: "EB Garamond", serif;
+}
+
+.oko-text h2 {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.oko-text p {
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+
+
+
 @media (min-width:1025px) {
 
     header {
@@ -263,10 +282,6 @@ footer {
     #menu-bar {
         display: none;
     }
-
-    .overskrift {
-        margin-left: 25px;
-    }
  
     .adresse {
         font-size: 1.8rem;
@@ -302,7 +317,7 @@ footer {
 
     header .navbar {
         position: absolute;
-        top: 22.2%;
+        top: 100%;
         left: 0;
         right: 0;
         background: var(--primary-color);
@@ -359,6 +374,15 @@ footer {
         overflow-x: hidden;
         margin-top: 50px;
         object-fit: cover;
+    }
+
+}
+
+
+@media(max-width:400px) {
+    
+    .logo {
+        display: none;
     }
 
 }
