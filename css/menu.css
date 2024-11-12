@@ -326,6 +326,32 @@ footer {
         margin-left: -10px;
     }
 
+    h2 {
+        font-size: 4rem;
+    }
+
+    .menu-mobil img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+        margin-top: -20rem;
+        margin-bottom: -15rem;
+    }
+
+    footer {
+        margin: 60px 0px;
+    }
+  
+    .logo-footer {
+        width: 110px;
+        height: auto;
+    }
+
+    .adresse {
+        font-size: 3rem;
+    }
 }
 
 @media(max-width:960px) {
