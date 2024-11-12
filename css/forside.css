@@ -164,6 +164,8 @@ footer {
     justify-content: space-between;
     overflow-x: hidden;
     gap: 50px;
+    margin-top: -4px;
+    z-index: 1000;
 }
 
 .logo-footer {
@@ -396,3 +398,30 @@ footer {
 }
 
 
+@media(max-width:470px) {
+    
+    .logo {
+        display: none;
+    }
+
+    .infographic img {
+        width: 100%;
+        overflow-x: hidden;
+        margin-top: 120px;
+        padding: 0 45px;
+    }
+
+    .logo-footer {
+        display: none;
+    }
+
+    .adresse {
+        font-size: 1.2rem;
+        padding-left: 20px;
+    }
+
+    .social-media a img {
+        height: 40px;
+    }
+
+}
