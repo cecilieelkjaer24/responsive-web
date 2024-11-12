@@ -349,6 +349,15 @@ footer {
         margin-bottom: 0px;
     }
 
+    h2 {
+        margin-bottom: -2rem;
+        font-size: 2rem;
+    }
+
+    .menu-telefon {
+        background: var(--primary-color);
+    }
+
     header label {
         display: block;
     }
