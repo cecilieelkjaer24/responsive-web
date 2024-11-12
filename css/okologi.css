@@ -164,21 +164,32 @@ footer {
 }
 
 .oko-text {
-    padding: 0 30px;
+    padding: 30px;
     color: var(--secondary-color);
     font-family: "EB Garamond", serif;
 }
 
 .oko-text h2 {
-    font-weight: 800;
-    font-size: 1.5rem;
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding-top: 20px;
 }
 
 .oko-text p {
     font-weight: 100;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
+.linjeskift {
+    padding-top: 10px;
+    text-align: justify;
+}
+
+.okomel img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+}
 
 
 
@@ -368,14 +379,6 @@ footer {
         padding: 0 45px;
     }
 
-    .oko-mel img {
-        width: 100%;
-        height: 310px;
-        overflow-x: hidden;
-        margin-top: 50px;
-        object-fit: cover;
-    }
-
 }
 
 
@@ -383,6 +386,13 @@ footer {
     
     .logo {
         display: none;
+    }
+
+    .infographic img {
+        width: 100%;
+        overflow-x: hidden;
+        margin-top: 120px;
+        padding: 0 45px;
     }
 
 }
