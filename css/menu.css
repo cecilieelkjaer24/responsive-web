@@ -26,7 +26,7 @@ body{
 }
 
 .overskrift {
-    width: 120px;
+    width: 180px;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -202,11 +202,6 @@ footer {
         padding: 0 150px;
     }
 
-    .logo {
-        width: 60px;
-        height: auto;
-    }
-
     header .navbar ul li {
         padding: 0 20px;
     }
@@ -327,10 +322,6 @@ footer {
     
     #menu-bar {
         display: none;
-    }
-
-    .overskrift {
-        margin-left: 25px;
     }
 
     .abningstider {

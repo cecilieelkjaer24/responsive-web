@@ -15,6 +15,7 @@ body{
     overflow-x: hidden;
 }
 
+
 .logo {
     width: 60px;
     height: auto;
@@ -26,13 +27,12 @@ body{
 }
 
 .overskrift {
-    display: flex;
-    width: 150px;
+    width: 180px;
     height: auto;
-    align-items: center;
-    margin-top: 18px;
-    justify-content: center;
-    margin-bottom: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
 header {
@@ -199,7 +199,7 @@ footer {
 
     header {
         display: flex;
-        flex-direction: column;
+        padding: 0 150px;
     }
 
     .logo {
@@ -207,17 +207,12 @@ footer {
         height: auto;
     }
 
-    .overskrift {
-        margin-top: -40px;
-        margin-bottom: -100px;
-    }
-
     header .navbar ul li {
-        padding: 0 40px;
+        padding: 0 20px;
     }
 
     header .navbar ul li a {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .adresse {
@@ -304,7 +299,7 @@ footer {
     
     header .navbar ul li a {
         text-decoration: none;
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 18px;
         display: block;
     }
@@ -485,4 +480,15 @@ footer {
         display: none;
     }
 
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1272px) {
+
+    header .navbar ul li {
+        padding: 0 0;
+    }
+
+    header {
+        padding: 10px;
+    }
 }
