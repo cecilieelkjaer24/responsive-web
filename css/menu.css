@@ -56,12 +56,14 @@ header {
 .forside {
     display: flex;
     justify-content: center;
-    height: 80%;
+    height: 60vh;
+    overflow-x: hidden;
 }
 
 .forside img {
     width: 100%;
-    overflow-x: hidden;
+    object-fit: cover;
+    margin: 0 0 0 0 ;
 }
 
 .abningstider {
@@ -229,8 +231,7 @@ footer {
         
     }
     h2{
-        font-size: 4rem;
-        margin-top: 4rem;  
+        font-size: 4rem; 
         margin-bottom: -2rem;
     }
     .menu-desktop{
@@ -251,7 +252,7 @@ footer {
     }
 
     .menu-desktop img {
-        width: 100%;
+        width: 60%;
     }
 
     nav.navbar {
