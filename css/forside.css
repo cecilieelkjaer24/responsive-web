@@ -46,6 +46,7 @@ header {
     color: var(--secondary-color);
     font-family: "EB Garamond", serif;
     background: var(--primary-color);
+    position: fixed;
 }
 
 .header-icons {
@@ -90,7 +91,7 @@ header {
     justify-content: center;
     align-items: center;
     height: 400px;
-    background-image:linear-gradient(to right, #0000007f 50%, hsla(0, 0%, 0%, 0.524) 100%),
+    background-image:linear-gradient(to right, #000000a7 50%, hsla(0, 0%, 0%, 0.583) 100%),
     url('/img/croissant.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,6 +99,11 @@ header {
 
 .croissant article {
     text-align: center;
+    width: 40%;
+    padding: 0  30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .croissant article h4 {
@@ -105,6 +111,7 @@ header {
     font-family: "EB Garamond", serif;
     font-size: 2rem;
     font-weight: 800;
+    padding-bottom: 15px;
 }
 
 .croissant article p {
@@ -114,10 +121,14 @@ header {
     font-weight: 200;
 }
 
-.croissant img {
-    width: 100%;
-    overflow-x: hidden;
-    object-fit: cover;
+.croissant article img {
+    width: 80%;
+    padding-top: 30px;
+}
+
+.croissant article hr {
+    width: 30%;
+    margin-top: 30px;
 }
 
 /* NAVBAR */
@@ -237,12 +248,6 @@ footer {
         display: flex;
         padding: 0 150px;
     }
-
-    .logo {
-        width: 80px;
-        height: auto;
-    }
-
     header .navbar ul li {
         padding: 0 20px;
     }
@@ -473,6 +478,7 @@ footer {
 
     header {
         padding: 10px;
+        position: fixed;
     }
 }
 
