@@ -165,45 +165,6 @@ footer {
     display: inline-block;
 }
 
-.omos {
-    margin-top: 20px;
-    font-family: "EB Garamond", serif;
-    padding: 0 50px 30px 50px;
-}
-
-
-.omos h2 {
-    font-size: 3rem;
-}
-
-.omos h3 {
-    font-size: 2rem;
-    width: 70%;
-}
-
-.omos p {
-    font-size: 1.5rem;
-    padding-top: 15px;
-}
-
-.linjeskift {
-    width: 70%;
-    text-align: justify;
-}
-
-main {
-    background-image:
-    linear-gradient(to right, #15276bcc 30%, rgba(205, 205, 160, 0) 100%),
-    url('/img/berta-om-os.webp');
-    width: 100%;
-    height: 110vh;
-    background-size: cover;
-    color: white;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-}
-
 @media (min-width:1025px) {
 
     header {
@@ -319,19 +280,6 @@ main {
         margin-left: 25px;
     }
 
-    .abningstider {
-        font-size: 2rem;
-        margin: 30px 0;
-    }
-
-    .tidspunkter p:nth-child(1) {
-        font-size: 2.3rem;
-        margin-top: 20px;
-    }
-    .tidspunkter p:nth-child(2) {
-        font-size: 3.5rem;
-    }
-
     .adresse {
         font-size: 1.8rem;
     }
@@ -343,11 +291,6 @@ main {
     .social-media {
         gap: 10px;
         margin-left: -10px;
-    }
-
-    main {
-        height: 800px;
-        margin-top: 150px;
     }
 
 }
@@ -409,45 +352,6 @@ main {
         margin-left: 20px;
     }
 
-    .forside {
-        margin: -40px 0px 0px -120px;
-    }
-
-    .omos {
-        text-align: center;
-        padding: 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .omos h2 {
-        font-size: 2rem;
-    }
-
-    .omos h3 {
-        font-size: 1.6rem;
-        width: 100%;
-    }
-
-    .linjeskift {
-        text-align: center;
-        width: 100%;
-    }
-
-    .linjeskift p {
-        font-size: 1.2rem;
-    }
-
-    main {
-        padding-top: 100px;
-        height: 800px;
-        overflow: hidden;
-        background-image:
-    linear-gradient(to right, #15276bcc 30%, #15276bcc 100%),
-    url('/img/berta-om-os.webp');
-    }
-
     
 }
 
@@ -456,13 +360,6 @@ main {
     
     .logo {
         display: none;
-    }
-
-    .infographic img {
-        width: 100%;
-        overflow-x: hidden;
-        margin-top: 120px;
-        padding: 0 45px;
     }
 
     .logo-footer {
@@ -482,32 +379,4 @@ main {
         padding: 20px 0;
     }
 
-    main {
-        margin-top: -0px;
-        padding: 40px 15px;
-    }
-
-}
-
-.button {
-    background: var(--primary-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-    padding: 15px;
-    margin-top: 20px;
-    color: var(--secondary-color);
-    font-family: var(--font);
-    font-weight: 800;
-    transition: 0.2s;
-    border: none;
-}
-
-.button:hover {
-    scale: 1.1;
-}
-
-.news .omos a  {
-    text-decoration: none;
 }
