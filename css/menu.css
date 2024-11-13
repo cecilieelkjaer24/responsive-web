@@ -156,11 +156,12 @@ footer {
     justify-content: space-between;
     overflow-x: hidden;
     gap: 50px;
+    z-index: 1000;
 }
 
 .logo-footer {
     width: auto;
-    height: 90px;
+    height: 60px;
     margin: 15px;
 }
 
@@ -227,17 +228,6 @@ footer {
         justify-content: center;
         align-items: center;
     }
-    .adresse{
-        font-size: 2rem;
-    }
-    .social-media a img{
-       width: 50px;
-       height: auto;
-    }
-    .logo-footer{
-        width: 100px;
-        height: auto;
-    }
 
     .menu-desktop img {
         width: 60%;
@@ -246,6 +236,10 @@ footer {
     nav.navbar {
         display: flex;
         justify-content: space-between;
+    }
+
+    footer {
+        padding: 0 150px;
     }
 
 }
