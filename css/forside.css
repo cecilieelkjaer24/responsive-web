@@ -213,7 +213,7 @@ footer {
 
 .logo-footer {
     width: auto;
-    height: 90px;
+    height: 60px;
     margin: 15px;
 }
 
@@ -271,6 +271,10 @@ footer {
     nav.navbar {
         display: flex;
         justify-content: space-between;
+    }
+    
+    footer {
+        padding: 0 150px;
     }
 
 
@@ -381,7 +385,6 @@ footer {
         gap: 10px;
         margin-left: -10px;
     }
-
 }
 
 /*redgiering af mobile first*/
@@ -446,7 +449,18 @@ footer {
     .forside {
         margin: -40px 0px 0px -120px;
     }
+    
+    .croissant article:nth-child(3) {
+        display: none;
+    }
 
+    .croissant article {
+        width: 80%;
+    }
+
+    .pil {
+        padding-right: 0px;
+    }
 }
 
 /*her er også til mobile first, fordi ved 470 begynder vores header og footer at blive overcrowded*/
@@ -494,6 +508,18 @@ footer {
         padding: 10px;
         position: fixed;
     }
+
+    .forside img {
+        width: 100%;
+        overflow-x: hidden;
+        object-fit: cover;
+        object-position: 0 -200px;
+    }
+
+    footer {
+        padding: 0 0;
+    }
+
 }
 
 /*dette er en medie querie også til mobil, men hvor vi redigerede forside billedet*/

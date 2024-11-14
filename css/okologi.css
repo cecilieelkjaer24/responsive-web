@@ -130,7 +130,7 @@ footer {
 
 .logo-footer {
     width: auto;
-    height: 90px;
+    height: 60px;
     margin: 15px;
 }
 
@@ -227,7 +227,7 @@ footer {
     }
 
     .linjeskift {
-        font-size: 2rem;
+        font-size: 1.5rem;
         display: flex;
         flex-direction: row;
         break-inside: avoid;
@@ -244,10 +244,13 @@ footer {
     }
 
     .infographic-web img {
-        width: 100%;
+        width: 80%;
         overflow-x: hidden;
         margin-top: 50px;
         padding: 0 45px;
+    }
+    .okomel {
+        padding-top: 100px;
     }
 
     .okomel img {
@@ -257,6 +260,10 @@ footer {
     nav.navbar {
         display: flex;
         justify-content: space-between;
+    }
+
+    footer {
+        padding: 0 150px;
     }
 
 }
