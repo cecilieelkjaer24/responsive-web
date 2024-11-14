@@ -248,6 +248,15 @@ footer {
     display: inline-block;
 }
 
+.pil {
+    height: 50px;
+    padding-right: 50px;
+}
+
+.pil:nth-child(4) {
+    transform: rotate(180deg);
+}
+
 /*media queries af desktop*/
 
 @media (min-width:1025px) {
