@@ -5,11 +5,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*Herunder ses vores farvepalette, som gjorde det nemmere fremover at bruge gentage farver*/
 :root {
     --primary-color: #fff8d0;
     --secondary-color: #2844a5;
     --crossaint-color: #d3874a;
 }
+
+/*Herunder ses den generelle redigering af vores website udenfor media queries fx at body altid har samme baggrundsfarve*/
 body{
     background-color: var(--primary-color);
     overflow-x: hidden;
@@ -194,6 +198,8 @@ header label {
     display: none;
 }
 
+/*den generelle redigering af vores footer*/
+
 footer {
     display: flex;
     flex-direction: row;
@@ -242,6 +248,8 @@ footer {
     display: inline-block;
 }
 
+/*media queries af desktop*/
+
 @media (min-width:1025px) {
 
     header {
@@ -267,6 +275,8 @@ footer {
 
 
 }
+
+/*redigering af tablet*/
 
 @media(max-width:1024px) {
 
@@ -374,6 +384,8 @@ footer {
 
 }
 
+/*redgiering af mobile first*/
+
 @media(max-width:960px) {
 
     header {
@@ -437,6 +449,7 @@ footer {
 
 }
 
+/*her er også til mobile first, fordi ved 470 begynder vores header og footer at blive overcrowded*/
 
 @media(max-width:470px) {
     
@@ -470,6 +483,7 @@ footer {
 
 }
 
+/*dette var for at navbarren ikke flyttede sig ned på næste linje */
 @media only screen and (min-width: 1025px) and (max-width: 1220px) {
 
     header .navbar ul li {
@@ -482,6 +496,7 @@ footer {
     }
 }
 
+/*dette er en medie querie også til mobil, men hvor vi redigerede forside billedet*/
 @media only screen and (max-width: 710px) {
 
     .forside img {
