@@ -1,2 +1,3 @@
 User-agent: *
-Allow: /Sitemap: (insert link here)
+Allow: /
+Sitemap: /sitemap.xml
