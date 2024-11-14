@@ -436,6 +436,10 @@ main {
     url('/img/berta-om-os.webp');
     }
 
+    .button {
+        width: 60%;
+    }
+
     
 }
 
@@ -475,6 +479,12 @@ main {
         padding: 40px 15px;
     }
 
+    .news .omos a  {
+        text-decoration: none;
+        width: 150px;
+        font-size: 1rem;
+    }
+
 }
 
 .button {
@@ -498,6 +508,7 @@ main {
 
 .news .omos a  {
     text-decoration: none;
+    width: 300px;
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
